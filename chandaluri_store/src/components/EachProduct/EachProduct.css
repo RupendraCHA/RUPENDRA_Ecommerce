@@ -1,0 +1,28 @@
+.product-item {
+  background-color: rgb(19, 18, 62);
+  padding: 20px;
+  /* height: 400px; */
+  margin-top: 20px;
+  border-radius: 14px;
+  color: #fff;
+  text-align: center;
+  /* width: 400px; */
+
+  /* width: 400px;
+  height: 400px; */
+}
+.product-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 6px;
+}
+.product-name {
+  font-size: 20px;
+  font-family: "Roboto";
+  font-weight: bold;
+  margin-top: 20px;
+}
+.product-description {
+  font-size: 14px;
+  font-family: "Roboto";
+}

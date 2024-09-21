@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 40px 30px 40px;
+  background-color: rgb(118, 134, 159);
+  /* margin-top: 20px; */
+}
+.store-logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.store-logo-container:hover {
+  padding: 10px;
+  background-color: #fff;
+  /* height: 80px; */
+  transition: all 0.5s ease-in-out;
+  border-radius: 10px;
+}
+.store-logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.logo-name {
+  font-size: 28px;
+  font-family: "Roboto";
+  font-weight: bold;
+  /* margin-top: 10px; */
+  margin-left: 5px;
+  color: #1208d0;
+  /* width: 150px; */
+}
+.store-features {
+  list-style-type: none;
+  display: flex;
+  gap: 15px;
+  color: rgb(22, 22, 22);
+  font-size: 16px;
+  font-weight: 600;
+}
+li:hover {
+  text-decoration: underline;
+  color: blue;
+}

@@ -1,0 +1,22 @@
+.cart-found-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart-found-card {
+  padding: 30px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 12px;
+}
+.heading {
+  font-family: "Roboto";
+  font-size: 36px;
+  font-weight: bold;
+}
+.description {
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: bold;
+}
